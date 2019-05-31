@@ -20,12 +20,13 @@ setup(
     url="https://github.com/Quansight/jupyterlab-omnisci",  # Optional
     packages=find_packages(),
     install_requires=[
-        "vdom",
+        "pymapd",
+        "jupyterlab==1.0.0a3",
         "pyyaml",
-        "altair==3.0.1",
-        "ipywidgets",
         "ibis-framework==1.0.0",
+        "altair==3.0.1",
         "vega_datasets",
-        "jupyterlab==1.0.0a3"
+        "ipywidgets",
+        "vdom"
     ]
 )

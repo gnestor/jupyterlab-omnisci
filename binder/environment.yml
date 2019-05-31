@@ -2,5 +2,14 @@ name: jupyterlab-omnisci
 channels:
   - conda-forge
 dependencies:
-  - pymapd
+  - python>=3.4
   - nodejs
+  - pymapd
+  - pyyaml
+  - ibis-framework=1.0.0
+  - altair==3.0.1
+  - vega_datasets
+  - ipywidgets
+  - pip:
+    - jupyterlab==1.0.0a3
+    - vdom
